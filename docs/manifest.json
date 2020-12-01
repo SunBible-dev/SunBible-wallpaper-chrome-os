@@ -1,0 +1,23 @@
+{
+    "name": "SunBible WallPaper",
+    "description": "Beautiful KJV Chrome WallPaper Changing App",
+
+    "version": "0.0.1",
+    "manifest_version": 2,
+   
+    "browser_action": {
+        "default_icon": {         
+          "16": "img/logo.png",
+          "24": "img/logo.png",
+          "32": "img/logo.png" 
+        },
+        "default_popup": "chrome-app.html"       
+      },
+  
+    "icons": { "16": "img/logo.png", "128": "img/logo.png" },
+
+    "permissions": [
+      "wallpaper"
+    ]
+
+  }
